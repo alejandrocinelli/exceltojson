@@ -9,9 +9,9 @@ const TablaContainer = () => {
   }
 
   return (
-    <div className="bg-slate-100 absolute top-36 left-8 right-8  shadow-2xl w-auto ">
-      <table className="table-auto text-xs">
-        <thead  className="bg-slate-300" >
+    <div className="bg-slate-100 absolute top-64 left-8 right-8  shadow-2xl w-auto ">
+      <table className="table-auto text-xs shadow-2xl">
+        <thead  className="bg-indigo-400" >
           <tr className="" >
             <th className="border border-slate-600 px-1 ">GPO</th>
             <th  className="border border-slate-600">CDL</th>

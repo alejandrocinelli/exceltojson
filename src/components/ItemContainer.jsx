@@ -1,11 +1,14 @@
+import ResponsableDiseño from "./ResponsableDiseño"
 import TablaContainer from "./TablaContainer"
 import TipoDeTarea from "./TipoDeTarea"
 
 const ItemContainer = () => {
   return (
-    <div className="bg-purple-300 flex-col h-screen relative" >
+    <div className="flex-col h-max
+    relative" >
 
     <TipoDeTarea/>
+    <ResponsableDiseño/>
     <TablaContainer/>
 
     </div>
